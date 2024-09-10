@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
     <title>Ecozen</title>
 </head>
 
 <body>
     <header>
+        <div class="circulo">
+            <img src="assets/images/Ecozen_page.jpg" alt="logo ecozen" id="logo" width="120px" height="120px">
+        </div>
 
-        <img src="Ecozen_page-0001.jpg" alt="logo ecozen" id="logo" width="100px" height="100px">
 
         <div>
             <nav>
@@ -24,77 +26,106 @@
                 </ul>
             </nav>
         </div>
-        
+
 
     </header>
 
     <main class="container">
-        <h1>Seja nosso parceiro</h1>
-        <img src="unity-holds-globe-stockcake.jpg" alt="seja parceiro" id="parceiro" width="300px" height="300px">
-        <h2> Cadastre-se</h2>
-        
+        <h1>Seja nosso parceiro!</h1>
+        <img src="assets/images/unity-holds-globe-stockcake.jpg" alt="seja parceiro" id="parceiro" width="300px"
+            height="500px">
 
-        <form action="DadosDoFormulario/" method="get" target="_blank">
+
+
+        <form id="parceiroForm">
             <div class="retangulo1">
+                <div class="titulo-form">
+                    <h2> Cadastre-se</h2>
+                </div>
 
                 <p>
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" placeholder="Nome" value="">
-    
+
                 </p>
                 <p>
                     <label for="nome">Email Corporativo:</label>
-                    <input type="text" id="email" name="emmail" placeholder="Email" value="">
-    
+                    <input type="text" id="email" name="email" placeholder="Email" value="">
+
                 </p>
                 <p>
                     <label for="nome">Telefone:</label>
                     <input type="number" id="telefone" name="telefone" placeholder="telefone" value="">
-    
+
                 </p>
                 <p>
                     <label for="nome">Site:</label>
                     <input type="url" id="site" name="site" placeholder="site" value="">
-    
+
                 </p>
                 <p>
                     <label for="nome">Qual a parceria?</label>
                     <select name="parceria" id="parceria">
-                        <option value="" disabled selected>selecione</option>
+                        <option value="" disabled selected type="text">Selecione</option>
                         <option value="moda">Moda</option>
                         <option value="alimentacao">Alimentação</option>
                         <option value="bemEstar">Bem-Estar</option>
                         <option value="reciclagem">Reciclagem</option>
                     </select>
-    
+
                 </p>
-    
-                <button type="submit">Enviar</button>
 
+                <div class="bt">
+                    <button type="submit">Enviar</button>
+                </div>
             </div>
-            
-
-            <footer class=>
-                <p>
-                    &copy; 2024 - Ecozen. Todos os direitos reservados.</p>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Contato</a></li>
-                        </ul>
-                    </nav>
-                
-            </footer>
-
-
-
         </form>
-
 
     </main>
 
+    <footer>
+        <p>&copy; 2024 - Ecozen. Todos os direitos reservados.</p>
+        <h3>Venha Fazer parte desse projto!</h3>
+        <section>
+            <div class="img-icons-items">
+                <h4 class="img-title">Siga-nos na redes sociais! </h4>
 
+                <ul>
+                    <li>
+
+                        <a href="#">
+                            <img src="assets/icons/Instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+
+                    <li><a href="#">
+                            <img src="assets/icons/Facebook.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <img src="assets/icons/Telegram.svg" alt="Telegram">
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <img src="assets/icons/TikTok.svg" alt="Tik Tok">
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <img src="assets/icons/YouTube.svg" alt="YouTube">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+
+    </footer>
+
+    <script src="dadosUsuarios.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

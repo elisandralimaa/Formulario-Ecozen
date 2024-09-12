@@ -76,10 +76,22 @@
                 </p>
 
                 <div class="bt">
-                    <button type="submit">Enviar</button>
+                    <button type="submit" for="abrir-popup">Enviar</button>
+                </div>
+
+                <input id="abrir-popup" name="popup" type="radio" hidden>
+                <input id="fechar-popup" name="popup" type="radio" hidden checked>
+                <label id="fechar-popup-btn" for="fechar-popup"></label>
+        
+                <div id="conteudo">
+                    <h3>Dados do formulario: </h3>
+                    <br>
+                    <p id="texto-conteudo"></p>
                 </div>
             </div>
         </form>
+
+      
 
     </main>
 

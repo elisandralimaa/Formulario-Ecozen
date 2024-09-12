@@ -5,9 +5,9 @@
 
 body {
 
-    background-color: rgba(149, 203, 149, 1);
+    /* background-color: rgba(149, 203, 149, 1); */
     text-align: left;
-    background-image: url(imagem-de-fundo.jpeg);    
+
 
 
 }
@@ -15,17 +15,20 @@ body {
 header {
     background: linear-gradient(to right, #EEF7EE, #C2E1C2, #ABD6AB, #A0D1A0, #95CB95);
     padding-bottom: 10px;
-    height: 100px;
+    height: 150px;
+    text-align: -webkit-center;
+
 
 }
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     background-color: rgba(197, 165, 128, 1);
+    height: 100px;
 
 }
 
@@ -52,6 +55,11 @@ nav a {
 .container {
     text-align: right;
     padding: 70px 200px 125px;
+    background-image: url(assets/images/imagem-de-fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 label {
@@ -142,12 +150,15 @@ input[type="url"] {
 }
 
 button {
-    border: 1px solid rgba(217, 217, 217, 1);
+    border: 1px solid rgba(149, 203, 149, 1);
     border-radius: 10px;
     padding: 5px 10px;
     width: 100px;
     box-sizing: border-box;
     margin-top: 20px;
+    background-color: rgb(149, 203, 149, 1);
+    cursor: pointer;
+
 }
 
 .bt {
@@ -155,6 +166,7 @@ button {
     justify-content: center;
     display: flex;
     margin-right: 30px;
+
 }
 
 footer {
@@ -212,19 +224,62 @@ form div div {
 }
 
 .circulo {
-    background-color: #ffffff;
-    border-radius: 50%;
+    background-color: rgba(165, 128, 1);
+    border-radius: 80%;
     width: 120px;
     height: 120px;
     overflow: hidden;
     position: relative;
-    transform: translate(20%, 5%);
+    display: flex;
 
 }
 
 .circulo img {
     position: absolute;
-    bottom: o;
+    bottom: 0;
     width: 100%;
 
+}
+
+#abrir-popup:checked~#conteudo {
+    display: block;
+}
+
+#fechar-popup:checked~#conteudo,
+#fechar-popup:checked~#fechar-popup-btn {
+    display: none;
+}
+
+#abrir-popup-btn {
+    display: block;
+    color: white;
+    background-color: #a45fd2;
+    width: fit-content;
+    padding: 12px 34px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px -5px #20003044;
+    cursor: pointer;
+}
+
+#fechar-popup-btn {
+    background-color: #0000005d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#conteudo {
+    box-sizing: border-box;
+    position: fixed;
+    width: auto;
+    height: 180px;
+    left: max(calc(35vw - 380px / 2), 4vw);
+    top: calc(50vh - 80px);
+    padding: 22px;
+    background-color: #ABD6AB;
+    border: 2px solid rgba(197, 165, 128, 1);
+    border-radius: 64px;
+    box-shadow: 0px 34px 6px -5px #0000003c;
 }

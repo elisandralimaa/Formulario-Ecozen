@@ -1,0 +1,26 @@
+footer {
+    background-color: #D3B897;
+    text-align: center;
+    padding: 35px;
+    color: white;
+    position: relative;
+}
+
+.direitosl {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+
+.social-medial {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.social-medial img {
+    width: 30px;
+    margin: 0 2px;
+    height: auto;
+}
+ 

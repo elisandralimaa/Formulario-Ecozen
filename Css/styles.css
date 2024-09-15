@@ -9,16 +9,60 @@ body {
     text-align: left;
 
 
+#sh1 {
+ font-size: 18px;
+ font-weight: 500;
+ font-family: default, serif;
+}
 
 }
 
-header {
-    background: linear-gradient(to right, #EEF7EE, #C2E1C2, #ABD6AB, #A0D1A0, #95CB95);
-    padding-bottom: 10px;
-    height: 150px;
-    text-align: -webkit-center;
+.header {
+    background-color: #7EBF8E;
+    padding: 20px;
+    text-align: center;
+}
 
+.header img {
+    width: 100px;
+    border-radius: 50%;
+}
 
+.header2 {
+    background-color: #D3B897;
+    padding: 20px;
+    text-align: center;
+}
+
+.header2 h2 {
+    color: white;
+    font-family: raleway;
+    font-size: 25px;
+}
+
+nav {
+    background-color: #D3B897;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 10px rgba(125, 76, 39, 0.2);
+  }
+
+.banner {
+    background-image: url(/assets/images/background.webp);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
 }
 
 nav ul {
@@ -55,7 +99,7 @@ nav a {
 .container {
     text-align: right;
     padding: 70px 200px 125px;
-    background-image: url(assets/images/imagem-de-fundo2.png);
+    background-image: url(/assets/images/imagem-de-fundo2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -275,7 +319,7 @@ form div div {
     position: fixed;
     width: auto;
     height: 180px;
-    left: max(calc(35vw - 380px / 2), 4vw);
+    left: max(calc(35vw - 600px / 2), 4vw);
     top: calc(50vh - 80px);
     padding: 22px;
     background-color: #ABD6AB;
@@ -283,3 +327,4 @@ form div div {
     border-radius: 64px;
     box-shadow: 0px 34px 6px -5px #0000003c;
 }
+

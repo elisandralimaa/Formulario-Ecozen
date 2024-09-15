@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(/assets/images/background.webp);
+    background-size: cover;
+    background-color: #D0E8D0;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.386);
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background-color: #7EBF8E;
+    padding: 15px;
+    text-align: center;
+}
+
+.header img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header2 {
+    background-color: #D3B897;
+    padding: 10px;
+    text-align: center;
+}
+
+.header2 h2 {
+    color: white;
+    font-family: raleway;
+}
+
+nav {
+    background-color: #D3B897;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 10px rgba(125, 76, 39, 0.2);
+  }
+
+.banner {
+    background-image: url(/assets/images/background.webpp);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#placa-2 img:hover{
+    transform: translateX(5px);
+    box-shadow: 5px 15px 20px rgb(0, 0, 0, 0.2);
+}
+
+#placa-2 {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+    margin-left: 0px;  
+}
+
+#placa-2 img{
+    transition: all 0.3s ease-in-out;
+    opacity: 80%;
+    filter: contrast(1.4);
+    margin-top: 40px;
+    box-shadow:  1.2px 1.2px 1.2px black;
+}
+
+#nomes-img {
+    margin: 0 auto;
+}
+
+#nomes-img a {
+    font-family: "Teko", serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#titulo-frase{
+    color: rgb(5, 127, 22);
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: fantasy;
+}
+
+#paragrafo-frase{
+    color: rgb(150, 117, 74);
+    font-family:"Teko", serif;
+    margin-left: 20px;
+    font-weight: 670;
+    font-size: 20px;
+}
+
+.placa3 {
+    margin-top: 70px;
+}
+
+#ecoimg1{
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 1.2px 01px 1.2px rgb(119, 119, 119);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#ecoimg1 img{
+    align-self: center;
+    width: 200px;
+    height: 100px;
+}

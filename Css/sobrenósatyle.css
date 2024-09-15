@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(/assets/images/background.webp);
+    background-size: cover;
+    background-color: #D0E8D0;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.386);
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background-color: #7EBF8E;
+    padding: 15px;
+    text-align: center;
+}
+
+.header img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header2 {
+    background-color: #D3B897;
+    padding: 10px;
+    text-align: center;
+}
+
+.header2 h2 {
+    color: white;
+    font-family: raleway;
+}
+
+nav {
+    background-color: #D3B897;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 10px rgba(125, 76, 39, 0.2);
+  }
+
+.banner {
+    background-image: url(/assets/images/background.webp);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+#início-1{
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid rgb(8, 131, 12);
+    border-style:groove;
+    background-color: rgb(255, 255, 255);
+    font-family: raleway;
+    font-weight: 120;
+    color: rgb(40, 115, 40);
+    text-align: center;
+    font-size: x-large;
+    filter: drop-shadow(1px 1px 1px black);
+    bottom: 10%;
+}
+
+#Alany {
+    margin-top: 20px;
+    border: 5px solid rgb(8, 131, 12);
+    border-style:dotted;
+    background-color: white;
+    border-radius: 20%;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.444);
+    transition: all 0.3s ease-in-out;
+}
+
+#Alany:hover{
+    transform: scale(1.1);
+}
+
+#Elisandra {
+    margin-top: 20px;
+    border: 5px solid rgb(8, 131, 12);
+    border-style: dotted;
+    background-color: white;
+    border-radius: 20%;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.444);
+    transition: all 0.3s ease-in-out;
+}
+
+#Elisandra:hover{
+    transform: scale(1.1);
+}
+
+
+#Letícia {
+    margin-top: 20px;
+    border: 5px solid rgb(8, 131, 12);
+    border-style: dotted;
+    border-radius: 20%;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.444);
+    transition: all 0.3s ease-in-out;
+}
+
+#Letícia:hover{
+    transform: scale(1.1);
+}
+
+
+#Dailanne {
+    margin-top: 20px;
+    border: 5px solid rgb(8, 131, 12);
+    border-style: dotted;
+    border-radius: 20%;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.444);
+    transition: all 0.3s ease-in-out;
+}
+
+#Dailanne:hover{
+    transform: scale(1.1);
+}
+
+
+#Karolyne {
+    margin-top: 20px;
+    border: 5px solid rgb(8, 131, 12);
+    border-style: dotted;
+    border-radius: 20%;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.444);
+    transition: all 0.3s ease-in-out;
+}
+
+#Karolyne:hover{
+    transform: scale(1.1);
+}
+
+
+#img-meninas {
+    display: flex;
+    justify-content: center;
+}
+
+#img-meninas img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 70px;
+    margin-top: 10px;
+    border-style: groove;
+    border: 4px solid rgb(40, 115, 40);
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.434));
+}
+
+#img-meninas div {
+    width: 300px;
+    height: 300px;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+#img-meninas-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#img-meninas-2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 70px;
+    margin-top: 10px;
+    border-style: groove;
+    border: 4px solid rgb(40, 115, 40);
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.434));
+}
+
+
+#img-meninas-2 div {
+    width: 300px;
+    height: 300px;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+#img-meninas-3 {
+    display: flex;
+    justify-content: center;
+}
+
+#img-meninas-3 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 70px;
+    margin-top: 10px;
+    border-style: groove;
+    border: 4px solid rgb(40, 115, 40);
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.434));
+}
+
+#img-meninas-3 div{
+    width: 300px;
+    height: 300px;
+    margin: 0 10px;
+    margin-top: 20px;
+}

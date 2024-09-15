@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D0E8D0;
+}
+
+.header {
+    background-color: #7EBF8E;
+    padding: 15px;
+    text-align: center;
+}
+
+.header img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header2 {
+    background-color: #D3B897;
+    padding: 10px;
+    text-align: center;
+}
+
+.header2 h2 {
+    color: white;
+    font-family: raleway;
+}
+
+nav {
+    background-color: #D3B897;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 10px rgba(125, 76, 39, 0.2);
+  }
+
+.banner {
+    background-image: url(/assets/images/background.webp);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerd {
+    background-image: url('imagens/banner.jpg.jpeg');
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.itemd {
+    background-color: #E5F3E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; 
+    text-align: center;
+    width: 80%; 
+}
+
+.itemd img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.instructionsd {
+    background-color: #E5F3E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.instructionsd h2 {
+    font-size: 24px;
+    color: #5B392D;
+}
+
+.instructionsd ul, .instructionsd ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+
+.dividerd {
+    border: none;
+    border-top: 2px solid #5B392D;
+    margin: 40px auto;
+    width: 80
+}
+
+
+.item2d {
+    background-color: #E5F3E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; 
+    text-align: center;
+    width: 80%;
+}
+
+.item2d img {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%;
+}
+.instructions2d {
+    background-color: #E5F3E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.instructions2d h2 {
+    font-size: 24px;
+    color: #5B392D;
+}
+
+.instructions2d ul, .instructions2d ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+
+.dividerd {
+    border: none;
+    border-top: 2px solid #5B392D;
+    margin: 40px auto;
+    width: 80
+}
+
+
+footer {
+    background-color: #D3B897;
+    text-align: center;
+    padding: 35px;
+    color: white;
+    position: relative;
+}
+
+.direitosd {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+
+.social-mediad {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.social-mediad img {
+    width: 30px;
+    margin: 0 2px;
+    height: auto;
+}

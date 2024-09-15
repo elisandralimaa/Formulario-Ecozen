@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+    background-color: #D0E8D0;
+    
+}
+
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+    .header {
+        background-color: #7EBF8E;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .header img {
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+    .header2 {
+        background-color: #D3B897;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .header2 h2 {
+        color: white;
+        font-family: raleway;
+    }
+    
+    nav {
+        background-color: #D3B897;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav a {
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    nav a:hover {
+        transform: translateX(10px);
+        box-shadow: 0 5px 10px rgba(125, 76, 39, 0.2);
+      }
+    
+    .banner {
+        background-image: url(/assets/images/background.webp);
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+    }
+
+.titulo1 {
+        background-color: #2a8248;
+        padding: 1px;
+        text-align: center;
+        color: #ffffff;
+       
+}
+
+.abertura {
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imageminicio{
+    text-align: left;
+    margin-right: 120px;
+    
+}
+
+.imagemcasca{
+   text-align: center;
+    
+}
+
+.empada{
+    text-align: center;
+
+}
+.fotoempada{
+    text-align: center;
+    
+}
+
+.pate{
+    text-align: center;
+
+}
+
+.fotopate{
+    text-align: center;
+}
+
+.bolinho{
+    text-align: center;
+
+}
+
+.fotobolinho{
+    text-align: center;
+ 
+}
+
+.panqueca{
+    text-align: center;
+}
+
+.fotopanqueca{
+    text-align: center;
+
+}
+
+.imageminicio img,
+.imagemcasca img,
+.fotoempada img,
+.fotopate img,
+.fotobolinho img,
+.fotopanqueca img {
+  border-radius:40%;
+}
+
+
+footer {
+    background-color: #D3B897;
+    text-align: center;
+    padding: 35px;
+    color: white;
+    position: relative;
+}
+
+.direitosS {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+
+.social-mediaS {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
